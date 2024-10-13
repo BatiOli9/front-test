@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Analysis</title>
+</head>
+<body>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="imageFile">Imagen:</label>
+        <input type="file" id="file" name="file" accept=".pdf,.png,.jpeg,.jpg" required><br><br>
+
+        <button type="submit">Subir Análisis</button>
+    </form>
+
+    <script src="upload.js"></script>
+</body>
+</html>
